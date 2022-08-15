@@ -1,0 +1,368 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.social-link {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: end;
+}
+
+.social-link ul {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+.box2 {
+  border-left: 1px solid #cccccc;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.box a {
+  text-decoration: none;
+  color: #4460a0;
+}
+
+.box2 a {
+  text-decoration: none;
+  color: #00aaec;
+}
+
+.box a:hover {
+  color: pink;
+}
+
+.box2 a:hover {
+  color: pink;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.header ul {
+  display: flex;
+}
+
+.menu a {
+  padding: 20px;
+  text-decoration: none;
+  color: #00cc99;
+}
+
+.menu a:hover {
+  border-bottom: 3px solid #00cc99;
+  font-weight: bold;
+}
+
+.banner {
+  background-image: url(https://i.imgur.com/tVPt9oh.png);
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 35px;
+  line-height: 65px;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 20px 25px;
+}
+
+.intro {
+  margin-top: 40px;
+}
+
+.intro ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.intro li {
+  border: 1px solid gray;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 5px 5px rgb(189, 185, 185);
+  border-top: 0;
+  width: 300px;
+}
+
+.intro img {
+  padding: 5px 5px;
+  margin-top: 20px;
+}
+
+.item2 img {
+  margin-top: 50px;
+}
+
+.item3 img {
+  margin-top: 30px;
+}
+
+.item2 h3 {
+  margin-top: 20px;
+}
+
+.item3 h3 {
+  margin-top: 9px;
+}
+
+.intro h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+.intro p {
+  padding: 20px;
+  text-align: left;
+}
+
+.table {
+  margin-top: 40px;
+}
+
+.table h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+table {
+  width: 840px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+table th {
+  font-weight: bold;
+  background: #f7f7f7;
+}
+
+
+th,
+td {
+  padding: 10px 10px 10px 20px;
+  text-align: left;
+}
+
+th {
+  border-top: 1px solid #969696;
+  border-bottom: 1px solid #969696;
+}
+
+td {
+  border-bottom: 1px solid #969696;
+}
+
+span {
+  color: #00a67d;
+}
+
+.form {
+  width: 1000px;
+  height: 370px;
+  background: linear-gradient(#00644b, #009872);
+  margin-top: 40px;
+}
+
+.form h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+}
+
+.area {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.form form:nth-child(2) {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: white;
+  width: 300px;
+}
+
+input {
+  width: 400px;
+}
+
+.area .button {
+	width: 60px;
+	margin: 10px 0 0 350px;
+	padding: 15px 10px;
+	color: white;
+	background: #00cc98;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+.area .button:hover{background: gold;}
+.footer{display: flex;
+justify-content: space-between;
+background: white;
+padding: 20px;}
+.footer p{font-weight: bold;
+line-height:25px;}
+.footer span{color: #e54991;}
